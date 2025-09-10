@@ -10,10 +10,10 @@ const rl = readline.createInterface({
 })
 
 rl.question("Masukkan Tanggal (DD-MM-YY) ", (tanggal) => {
-  //   convert.convertDateExternal(tanggal)
+    convert.convertDateExternal(tanggal)
   // noConvert.tanpaEksternal(tanggal)
   // convert2.convertDataEksternal(tanggal)
-  noConvert2.tanpaEksternal(tanggal)
+  // noConvert2.tanpaEksternal(tanggal)
 
   rl.close()
 })
